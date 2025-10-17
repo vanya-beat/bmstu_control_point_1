@@ -1,0 +1,47 @@
+# Build directories
+build/
+bin/
+obj/
+out/
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+
+# Libraries and linked binaries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# Debug and symbol files
+*.dSYM/
+*.ilk
+*.pdb
+*.idb
+
+# Precompiled headers
+*.gch
+*.pch
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Testing/
+CTestTestfile.cmake
+
+# Other
+*~ 
+*.swp
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
