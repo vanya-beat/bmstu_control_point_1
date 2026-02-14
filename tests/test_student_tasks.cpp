@@ -285,7 +285,7 @@ TEST(Task13_IsPalindromeIgnoreCase, SimplePalindromes) {
 
 TEST(Task13_IsPalindromeIgnoreCase, WithSpaces) {
   EXPECT_TRUE(isPalindromeIgnoreCase("a b a"));
-  EXPECT_TRUE(isPalindromeIgnoreCase("A man a Plan"));
+  EXPECT_FALSE(isPalindromeIgnoreCase("A man a Plan"));
   EXPECT_TRUE(isPalindromeIgnoreCase("race car"));
 }
 
