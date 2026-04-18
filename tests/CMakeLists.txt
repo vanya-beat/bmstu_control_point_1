@@ -1,6 +1,7 @@
 # Создаем исполняемый файл с тестами (C++ для Google Test)
 add_executable(student_tests
     test_student_tasks.cpp
+    test_cpp_tasks.cpp
     custom_main.cpp
 )
 
